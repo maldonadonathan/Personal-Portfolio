@@ -26,7 +26,16 @@ index .html - 3
 TOTAL IMAGES = 47
 
 
+    light blue - #A7CFE8
+        blue accent - #A9D9E6
 
+    pinkish red - #EF6968
+            pink accent - #F5B3B3
+
+    dark blue - #232F5F
+        dark blue accent - #364588
+
+    yellow - #FEEA7F
 
 https://colorpalettes.net/color-palette-1884/
 */
