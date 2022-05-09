@@ -233,83 +233,124 @@ footer {
 /* CAROUSEL */
 
 .carousel {
-  position: relative;
-  max-width: fit-content;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-top: 2vw;
-  margin-bottom: 2vw;
+    position: relative;
+    max-width: fit-content;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 }
 
 .carouselChild {
-  display: none;
+    display: none;
 }
 
-.backward, .forward {
-  cursor: pointer;
-  position: absolute;
-  top: 30%;
-  width: auto;
-  padding: 1vw;
-  color: #F4D6CC;
-  font-size: medium;
-  transition: 0.5s ease;
-  border-radius: 0 10% 10% 0;
-  user-select: none;
+.backward,
+.forward {
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    width: auto;
+    padding: 1vw;
+    color: #F4D6CC;
+    font-size: medium;
+    transition: 0.5s ease;
+    border-radius: 0 10% 10% 0;
+    user-select: none;
 }
 
 .forward {
-  right: 0;
-  border-radius: 10% 0 0 10%;
+    right: 0;
+    border-radius: 10% 0 0 10%;
 }
 
-/*when the user hovers,add a black background with some little opacity */
-.backward:hover, .forward:hover {
-  background-color: rgba(0,0,0,0.8);
+.backward:hover,
+.forward:hover {
+    background-color: #d72a32;
 }
 
-/* Caption caption */
 .caption {
-  color: #e3e3e3;
-  font-size: 16px;
-  padding: 10px 14px;
-  position: absolute;
-  bottom: 10px;
-  width: 100%;
-  text-align: center;
+    color: #e3e3e3;
+    font-size: medium;
+    position: absolute;
+    bottom: 1vw;
+    width: 100%;
+    text-align: center;
 }
 
-
-/* The circles or bullets and indicators */
 .circle {
-  cursor: pointer;
-  height: 16px;
-  width: 16px;
-  margin: 0 3px;
-  background-color: #d72a32;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.5s ease;
+    cursor: pointer;
+    height: 1vw;
+    width: 1vw;
+    margin: 0 0.25vw;
+    background-color: #d72a32;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
 }
 
-.on, .circle:hover {
-  background-color: #f0c1c1;
+.on,
+.circle:hover {
+    background-color: #f0c1c1;
 }
 
-/* Faint animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.4s;
-  animation-name: fade;
-  animation-duration: 1.4s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .5}
-  to {opacity: 2}
+    from {
+        opacity: .5;
+    }
+    to {
+        opacity: 2;
+    }
 }
 
 @keyframes fade {
-  from {opacity: .5}
-  to {opacity: 2}
+    from {
+        opacity: .5;
+    }
+    to {
+        opacity: 2;
+    }
+}
+
+.panel {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 5vh;
+    flex-wrap: wrap;
+}
+
+.panelImg {
+    display: flex;
+    width: 25vw;
+    flex-wrap: wrap;
+}
+
+.cont {
+    position: relative;
+    text-align: center;
+    width: 25vw;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F4D6CC;
+}
+
+.triple {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3vh;
 }
