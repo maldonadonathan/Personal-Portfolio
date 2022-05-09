@@ -42,7 +42,8 @@ a {
     display: block;
     width: 100%;
     color: black;
-    background-color: #c1def1;
+    /*background-color: #c1def1;*/
+    background-color: #d72a32;
     padding: 12px 16px;
 }
 
@@ -85,7 +86,7 @@ h2 {
 }
 
 .contactLink {
-    color: #1B4CB1;
+    color: #d72a32;
 }
 
 .indent {
@@ -99,7 +100,6 @@ body {
 }
 
 textarea {
-    margin-top: 0.5vh;
     width: 20vw;
     height: 8vh;
     font-family: 'Abel', sans-serif;
@@ -136,30 +136,32 @@ input {
 .portButton {
     width: max-content;
     padding: 1vw;
-    background-color: #c1def1;
+    /*background-color: #c1def1; */
+    background-color: #f0c1c1;
     color: black;
 }
 
 .portButton:hover {
-    background-color: #f0c1c1;
+    background-color: rgb(245, 222, 222);
 }
 
 body {
-    background-color: #a9d0ec;
+    /*background-color: #a9d0ec;*/
+    background-color: #F4D6CC;
 }
 
 button {
     border: none;
     font-family: 'Abel', sans-serif;
     font-size: 1em;
-    background-color: #c1def1;
+    background-color: #f0c1c1;
     color: black;
     padding: 1vw;
     border-radius: 5%;
 }
 
 button:hover {
-    background-color: #f0c1c1;
+    background-color: rgb(245, 222, 222);
 }
 
 .boyleImgs {
@@ -225,4 +227,96 @@ footer {
 
 .demo {
     margin-top: 2vw;
+}
+
+
+/* CAROUSEL */
+
+
+/* Slideshow container */
+.carousel {
+  position: relative;
+  max-width: fit-content;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+/* Make the images invisible by default */
+.carouselChild {
+  display: none;
+}
+
+/* forward & backward buttons */
+.backward, .forward {
+  cursor: pointer;
+  position: absolute;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 17px;
+  color: grey;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+
+/* Place the "forward button" to the right */
+.forward {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+/*when the user hovers,add a black background with some little opacity */
+.backward:hover, .forward:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption caption */
+.caption {
+  color: #e3e3e3;
+  font-size: 16px;
+  padding: 10px 14px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* The circles or bullets and indicators */
+.circle {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 3px;
+  background-color: #acc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.on, .circle:hover {
+  background-color: #717161;
+}
+
+/* Faint animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.4s;
+  animation-name: fade;
+  animation-duration: 1.4s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
 }

@@ -11,11 +11,10 @@
         @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
     </style>
-
     <title>Nathan Maldonado</title>
 </head>
 
-<body>
+<body onload="current(1)">
     <header>
         <h1>
             <a class="pageLink siteName" href="../index.html">Nathan Maldonado</a>
@@ -52,6 +51,35 @@
             <a href="/contact/contact.html">Contact</a>
         </nav>
     </header>
+
+
+
+ <div class="carousel fade">
+
+    <div class="carouselChild">
+      <img src="http://via.placeholder.com/1500x300" style="width: 100%; object-fit: contain">
+      <div class="caption">First caption</div>
+    </div>
+  
+    <div class="carouselChild">
+      <img src="http://via.placeholder.com/1500x300" style="width: 100%; object-fit: contain">
+      <div class="caption">Second Caption</div>
+    </div>
+  
+    <div class="carouselChild">
+      <img src="http://via.placeholder.com/1500x300" style="width: 100%; object-fit: contain">
+      <div class="caption">Third Caption</div>
+    </div>
+  
+    <a class="backward" onclick="add(-1)">&#10094;</a>
+    <a class="forward" onclick="add(1)">&#10095;</a>
+  </div>
+  
+  <div style="text-align:center">
+    <span class="circle" onclick="current(1)"></span>
+    <span class="circle" onclick="current(2)"></span>
+    <span class="circle" onclick="current(3)"></span>
+  </div>         
 
 
     <section class="content">
