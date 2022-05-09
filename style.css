@@ -93,7 +93,7 @@ h2 {
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Abel', sans-serif;
     font-size: larger;
     color: black;
 }
@@ -102,10 +102,14 @@ textarea {
     margin-top: 0.5vh;
     width: 20vw;
     height: 8vh;
+    font-family: 'Abel', sans-serif;
 }
 
 input {
     width: 20vw;
+    height: 2vw;
+    border-radius: 5%;
+    font-family: 'Abel', sans-serif;
 }
 
 .skillsDiv {
@@ -132,22 +136,30 @@ input {
 .portButton {
     width: max-content;
     padding: 1vw;
-    background-color: #f0c1c1;
+    background-color: #c1def1;
     color: black;
 }
 
+.portButton:hover {
+    background-color: #f0c1c1;
+}
+
 body {
-    background-color: #dbe9f3;
+    background-color: #a9d0ec;
 }
 
 button {
     border: none;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Abel', sans-serif;
     font-size: 1em;
-    background-color: #f0c1c1;
+    background-color: #c1def1;
     color: black;
     padding: 1vw;
     border-radius: 5%;
+}
+
+button:hover {
+    background-color: #f0c1c1;
 }
 
 .boyleImgs {
@@ -159,5 +171,58 @@ button {
     margin-right: 6vw;
 }
 
+.double {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2vw;
+}
 
-/* SLIDES */
+.textHalf {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 60vw;
+}
+
+.imgHalf {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 20vw;
+}
+
+.right {
+    margin-left: 5vw;
+}
+
+.left {
+    margin-right: 5vw;
+}
+
+footer {
+    margin-top: 2vw;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 25vw;
+    margin-bottom: 2vw;
+}
+
+.demo {
+    margin-top: 2vw;
+}
