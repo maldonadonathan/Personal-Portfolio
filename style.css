@@ -107,7 +107,7 @@ textarea {
 
 input {
     width: 20vw;
-    height: 2vw;
+    height: 4vh;
     border-radius: 5%;
     font-family: 'Abel', sans-serif;
 }
@@ -232,8 +232,6 @@ footer {
 
 /* CAROUSEL */
 
-
-/* Slideshow container */
 .carousel {
   position: relative;
   max-width: fit-content;
@@ -243,31 +241,26 @@ footer {
   margin-bottom: 2vw;
 }
 
-/* Make the images invisible by default */
 .carouselChild {
   display: none;
 }
 
-/* forward & backward buttons */
 .backward, .forward {
   cursor: pointer;
   position: absolute;
-  top: 48%;
+  top: 30%;
   width: auto;
-  margin-top: -23px;
-  padding: 17px;
-  color: grey;
-  font-weight: bold;
-  font-size: 19px;
-  transition: 0.4s ease;
-  border-radius: 0 5px 5px 0;
+  padding: 1vw;
+  color: #F4D6CC;
+  font-size: medium;
+  transition: 0.5s ease;
+  border-radius: 0 10% 10% 0;
   user-select: none;
 }
 
-/* Place the "forward button" to the right */
 .forward {
   right: 0;
-  border-radius: 4px 0 0 4px;
+  border-radius: 10% 0 0 10%;
 }
 
 /*when the user hovers,add a black background with some little opacity */
@@ -293,14 +286,14 @@ footer {
   height: 16px;
   width: 16px;
   margin: 0 3px;
-  background-color: #acc;
+  background-color: #d72a32;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.5s ease;
 }
 
 .on, .circle:hover {
-  background-color: #717161;
+  background-color: #f0c1c1;
 }
 
 /* Faint animation */
