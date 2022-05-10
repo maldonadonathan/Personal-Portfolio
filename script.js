@@ -32,9 +32,5 @@ function carouselDemo(n) {
 }
 
 /*
-    achivements 3
-    hobbies 3
-    plan 3
-    loc 3
-    resume 3
+email validation - https://blog.logrocket.com/web-animation-with-html-css-and-javascript/
 */
