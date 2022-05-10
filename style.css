@@ -249,8 +249,8 @@ footer {
 .forward {
     cursor: pointer;
     position: absolute;
-    top: 30%;
     width: auto;
+    top: 40%;
     padding: 1vw;
     color: #F4D6CC;
     font-size: medium;
@@ -270,7 +270,7 @@ footer {
 }
 
 .caption {
-    color: #e3e3e3;
+    color: #F4D6CC;
     font-size: medium;
     position: absolute;
     bottom: 1vw;
@@ -280,9 +280,9 @@ footer {
 
 .circle {
     cursor: pointer;
-    height: 1vw;
-    width: 1vw;
-    margin: 0 0.25vw;
+    height: 1vh;
+    width: 1vh;
+    margin: 0 0.25vh;
     background-color: #d72a32;
     border-radius: 50%;
     display: inline-block;
@@ -353,4 +353,9 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 3vh;
+}
+
+input,
+textarea {
+    margin-bottom: 1vh;
 }
