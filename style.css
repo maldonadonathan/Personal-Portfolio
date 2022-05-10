@@ -392,8 +392,13 @@ textarea {
 @media screen and (max-width: 600px){
 
     .panelImg{
-    width: 80vw;
+    width: 20vw;
     margin-bottom: 5vh;}
+
+    .cont{
+        width: 80vw;
+        margin-bottom: 5vh;
+    }
 }
 
 @media screen and (max-width: 480px){
