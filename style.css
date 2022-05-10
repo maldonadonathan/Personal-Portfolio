@@ -100,13 +100,13 @@ body {
 }
 
 textarea {
-    width: 20vw;
+    width: 240px;
     height: 8vh;
     font-family: 'Abel', sans-serif;
 }
 
 input {
-    width: 20vw;
+    width: 240px;
     height: 4vh;
     border-radius: 5%;
     font-family: 'Abel', sans-serif;
@@ -229,9 +229,6 @@ footer {
     margin-top: 2vw;
 }
 
-
-/* CAROUSEL */
-
 .carousel {
     position: relative;
     max-width: fit-content;
@@ -344,7 +341,8 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #F4D6CC;
+    color: #d72a32;
+    text-shadow: 0 0 3px #f0c1c1;
 }
 
 .triple {
@@ -357,5 +355,6 @@ footer {
 
 input,
 textarea {
+    max-width: 400px;
     margin-bottom: 1vh;
 }

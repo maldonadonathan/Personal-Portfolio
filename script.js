@@ -30,3 +30,11 @@ function carouselDemo(n) {
     slide[pos - 1].style.display = slideStyle;
     circles[pos - 1].className += " on";
 }
+
+/*
+    achivements 3
+    hobbies 3
+    plan 3
+    loc 3
+    resume 3
+*/
