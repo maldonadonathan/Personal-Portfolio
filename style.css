@@ -179,12 +179,13 @@ button:hover {
     align-items: center;
     margin-bottom: 2vw;
 }
-.opDouble{
+
+.opDouble {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 2vw;  
+    margin-bottom: 2vw;
 }
 
 .textHalf {
@@ -365,16 +366,19 @@ textarea {
     margin-bottom: 1vh;
 }
 
-@media screen and (max-width: 1024px){
-    .imgHalf{width: 80vw;}
-    .textHalf{width: 80vw;}
-
+@media screen and (max-width: 1024px) {
+    .imgHalf {
+        width: 80vw;
+    }
+    .textHalf {
+        width: 80vw;
+    }
     .double {
         flex-direction: column;
         align-items: center;
         margin-bottom: 4vh;
     }
-    .opDouble{
+    .opDouble {
         flex-direction: column-reverse;
         align-items: center;
         margin-bottom: 4vh;
@@ -382,25 +386,28 @@ textarea {
     .right {
         margin-left: 0;
     }
-    
     .left {
         margin-right: 0;
     }
 }
 
-@media screen and (max-width: 600px){
-
-    .panelImg{
-    width: 20vw;
-    margin-bottom: 5vh;}
-
-    .cont{
+@media screen and (max-width: 600px) {
+    .panelImg {
+        width: 20vw;
+        margin-bottom: 5vh;
+    }
+    .cont {
         width: 80vw;
         margin-bottom: 5vh;
     }
 }
 
-@media screen and (max-width: 480px){
-
-    .panelImg{width: 80vw;}
+@media screen and (max-width: 480px) {
+    .panelImg {
+        width: 80vw;
+    }
+    .card {
+        width: 80vw;
+        margin-bottom: 5vh;
+    }
 }
