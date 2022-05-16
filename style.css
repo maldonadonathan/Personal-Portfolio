@@ -166,10 +166,15 @@ button:hover {
 .boyleImgs {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin-top: 5vw;
-    margin-left: 10vw;
-    margin-right: 6vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3vh;
+}
+
+.boyleImg {
+    position: relative;
+    text-align: center;
+    width: 35vw;
 }
 
 .double {
@@ -305,6 +310,10 @@ footer {
     animation-duration: 1.5s;
 }
 
+.resume>h3 {
+    text-align: center;
+}
+
 @-webkit-keyframes fade {
     from {
         opacity: .5;
@@ -348,8 +357,8 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #d72a32;
-    text-shadow: 0 0 3px #f0c1c1;
+    color: black;
+    text-shadow: 0 0 20px #f0c1c1;
 }
 
 .triple {
@@ -399,6 +408,9 @@ textarea {
     .cont {
         width: 80vw;
         margin-bottom: 5vh;
+    }
+    .boyleImg {
+        width: 80vw;
     }
 }
 
