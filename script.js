@@ -31,6 +31,22 @@ function carouselDemo(n) {
     circles[pos - 1].className += " on";
 }
 
-/*
-email validation - https://blog.logrocket.com/web-animation-with-html-css-and-javascript/
-*/
+function validate() {
+    var email = document.getElementById("email").value;
+    var emailStr = String(email);
+    var phone = document.getElementById("phone").value;
+    var phoneStr = String(phone);
+    var regx = /\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b/;
+    if (emailStr.indexOf("@") === -1) {
+        alert("Please check all inputs are valid!");
+        return false;
+    } else if (phoneStr.length < 10) {
+        alert("Please check all inputs are valid!");
+        return false;
+    } else if (regx.test(emailStr)) {
+        alert("Please check all inputs are valid!");
+        return false;
+    } else {
+        return true;
+    }
+}
